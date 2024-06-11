@@ -1,11 +1,12 @@
-# -- stackhawk configuration for vuln-app --
+# -- stackhawk configuration for apptesting --
 app:
   # -- An applicationId obtained from the StackHawk platform. --
-  applicationId: f1f32176-7c3b-459b-8391-b92ded6cde81 # (required)
+  applicationId: b98467a6-40ed-4f17-b7f1-80f4f2f5effa # (required)
   # -- The environment for the applicationId defined in the StackHawk platform. --
   env: Development # (required)
   # -- The url of your application to scan --
   host: https://dvwa-dl4ymzsdca-uc.a.run.app # (required)
+
 
 # -- Customized Configuration for GraphQL/SOAP/OpenAPI, add here --
   # Configuration Docs: https://docs.stackhawk.com/hawkscan/configuration/
